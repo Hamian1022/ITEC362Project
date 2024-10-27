@@ -89,49 +89,22 @@ nav ul li a {
     font-weight: bold; /* Make link text bold */
 }
 
-/* Footer styles */
-/* Style for footer within navigation */
-nav footer {
-    font-size: 20px; /* Set font size for footer text */
-    display: flex; /* Use flexbox for layout */
-    justify-content: center; /* Center children horizontally */
-    align-items: center; /* Center children vertically */
-    height: 200px; /* Set height for the footer */
-    flex-grow: 1; /* Allow navigation to grow and fill available space */
-}
-
 /* General footer styles */
 footer {
-    display: flex; /* Use flexbox for layout */
-    align-items: flex-start; /* Align children to the start of the cross axis */
-    flex-direction: column; /* Arrange children in a column */
-    justify-content: space-between; /* Distribute space between children */
-    padding: 0 20px; /* Add horizontal padding */
     background-color: #EDC68D; /* Set background color */
 }
 
-/* Style for images within footer div h1 */
-footer div h1 img {
-    display: block; /* Display image as block element */
-}
-
-/* Style for footer div */
-footer div {
-    display: flex; /* Use flexbox for layout */
-    flex-direction: row; /* Arrange children in a row */
-    margin-bottom: 10px; /* Add bottom margin */
-}
-
-/* Style for images within footer */
-footer img {
-    margin-right: 10px; /* Add right margin */
-}
 
 /* Style for h2 and p elements within footer */
 footer h2, footer p {
     margin: 0; /* Remove margin */
     padding: 5px 0; /* Add vertical padding */
     
+}
+
+.logofooter {
+    justify-items: center;
+    align-items: center;
 }
 
 /* Header styles */
@@ -154,9 +127,6 @@ header h1 img {
     display: block; /* Display image as block element */
 }
 
-.fright {
-    justify-content: right;
-}
 
 
 
