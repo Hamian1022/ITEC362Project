@@ -14,17 +14,17 @@ body {
 /* Headings */
 /* Style for h2 headings */
 h2 {
-    font-size: 36px; /* Set font size for h2 */
+    font-size: 25px; /* Set font size for h2 */
 }
 
 /* Style for paragraph text */
 p {
-    font-size: 20px; /* Set font size for paragraphs */
+    font-size: 18px; /* Set font size for paragraphs */
 }
 
 /* Style for h3 headings */
 h3 {
-    font-size: 20px; /* Set font size for h3 */
+    font-size: 22px; /* Set font size for h3 */
 }
 
 /* Split section layout */
@@ -87,6 +87,7 @@ nav ul li a {
     text-decoration: none; /* Remove underline from links */
     color: black; /* Set link color to black */
     font-weight: bold; /* Make link text bold */
+    font-size: 22px;
 }
 
 /* General footer styles */
